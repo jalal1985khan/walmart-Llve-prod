@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function ProgramBenefits() {
 
@@ -42,7 +43,7 @@ function ProgramBenefits() {
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
                 <h2 class="mb-4 text-2xl font-boglebold text-w-blue tracking-tight leading-none md:text-5xl lg:text-5xl dark:text-white leading-7">Program benefits</h2>
                 <div class="flex justify-center items-center">
-                    <img src="/images/line-svg.png" width={100} height={100} className='w-20' />
+                    <Image src="/images/line-svg.png" width={100} height={100} className='w-20' alt="walmart vriddhi"/>
                 </div>
 
                 <div className='grid grid-cols-5 pt-12 gap-1'>
@@ -53,7 +54,7 @@ function ProgramBenefits() {
                                 transform transition duration-500 
                                 hover:scale-110 hover:z-50 z-0 ${items.color}`} key={index}>
                                 <div class="flex justify-center items-center">
-                                    <img src={items.image} width={100} height={100} className='w-20' />
+                                    <Image src={items.image} width={100} height={100} className='w-20' alt={items.name} />
                                 </div>
                                 <hr class="mt-12 mb-3 h-px bg-gray-100" />
                                 <h5 class="mb-2 text-xl font-semibold tracking-tight text-white font-bogleregular">{items.name}</h5>

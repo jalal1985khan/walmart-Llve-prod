@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Header() {
   return (
 
       <header className='flex bg-white border-b py-4 sm:px-10 px-6 font-[sans-serif] min-h-[80px] tracking-wide relative z-50 drop-shadow-md'>
     <div className='flex flex-wrap items-center lg:gap-y-2 gap-4 w-full'>
-      <a href="javascript:void(0)"><img src="/images/Walmart-Vriddhi-logo.svg" alt="logo" className='w-36' />
+        <a href="javascript:void(0)"><Image src="/images/Walmart-Vriddhi-logo.svg" alt="logo" className='w-36' width={100} height={100} />
       </a>
       <div className="flex gap-x-6 gap-y-4 ml-auto">
       <div

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Banner() {
 
@@ -16,12 +17,11 @@ function Banner() {
 
 
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
-
             <div class="relative  overflow-hidden h-[80vh]">
                 {
                     Banner.map((items, index) => (
                         <div key={index} class="duration-700 ease-in-out h-fit" data-carousel-item >
-                            <img src={items.image} class="absolute block w-full" alt="..." />
+                            <Image src={items.image} class="absolute block w-full" alt="walmart vriddhi" width={200} height={200} />
                         </div>
 
                     ))
