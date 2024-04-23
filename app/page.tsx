@@ -4,7 +4,7 @@ import Brands from '../components/Common/Brands';
 import LearningPrograme from '../components/HomePage/LearningPrograme'
 import ProgramBenefits from '../components/HomePage/ProgramBenefits'
 import GrowthJourney from '../components/HomePage/GrowthJourney'
-import Testimonials from '../components/HomePage/Testimonails'
+import Testimonials from '../components/HomePage/Test'
 
 
 export default function Home() {
