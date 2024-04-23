@@ -31,7 +31,7 @@ function Banner() {
             <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
                 {
                     Banner.map((items, index) => (
-                        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label={`Slide ${items.id}`} data-carousel-slide-to={items.id}></button>
+                        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label={`Slide ${items.id}`} data-carousel-slide-to={items.id} key={index}></button>
 
                     ))
                 }
