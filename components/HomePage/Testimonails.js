@@ -74,7 +74,7 @@ function Banner() {
         </div>
 
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
-            <div class="relative  overflow-hidden h-[80vh]">
+            <div class="relative  overflow-hidden w-4/5 mx-auto">
                 {
                     Banner.map((items, index) => (
                         <div key={index} class="duration-700 ease-in-out h-fit" data-carousel-item >
