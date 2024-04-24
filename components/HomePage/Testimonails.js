@@ -78,7 +78,7 @@ function Banner() {
                 {
                     Banner.map((items, index) => (
                         <div key={index} class="duration-700 ease-in-out h-96" data-carousel-item >
-                             <div class="flex flex-row items-center bg-white">
+                             <div class="flex flex-row items-center bg-white w-4/5 mx-auto">
                             <div class="flex flex-col text-start p-4 w-11/12">
                                         <p class="mb-2 text-2xl font-bogleitalic tracking-tight text-gray-900 dark:text-white">{items.feedback}</p>
                                         <p className='mb-2 text-3xl font-boglebold text-w-green'>{items.name}</p>
