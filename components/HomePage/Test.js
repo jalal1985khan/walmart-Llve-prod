@@ -69,8 +69,8 @@ function Banner() {
 
 
 
-        <div id="default-carousel" class="relative w-full" data-carousel="slide">
-            <div class="relative  overflow-hidden h-[80vh]">
+        <div id="default-carousel" class="relative w-10/12" data-carousel="slide">
+            <div class="relative  overflow-hidden mx-auto">
                 {
                     Feedback.map((items, index) => (
                         <div key={index} class="duration-700 ease-in-out" data-carousel-item >

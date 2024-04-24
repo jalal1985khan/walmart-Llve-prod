@@ -14,7 +14,7 @@ function GrowthJourney() {
             <div class="grid grid-cols-3 ">
                 <div class="content-end">
                     <div class="flex justify-end items-center">
-                        <Image src="/images/flipkart.png" className='w-full p-6' width={100} height={100} alt="walmart vriddhi" />
+                        <Image src="/images/flipkart.png" className='w-full p-6' width={300} height={300} alt="walmart vriddhi" />
                     </div>
 
                     <div className='bg-w-blue p-6 h-28'>
@@ -25,7 +25,7 @@ function GrowthJourney() {
 
                 <div class="content-end">
                     <div class="flex justify-end items-center">
-                        <Image src="/images/India-Image.png" className='w-full p-6' width={100} height={100} alt="walmart vriddhi" />
+                        <Image src="/images/India-Image.png" className='w-full p-6' width={300} height={300} alt="walmart vriddhi" />
                     </div>
 
                     <div className='bg-w-blue p-10 h-40'>
@@ -35,7 +35,7 @@ function GrowthJourney() {
 
                 <div class="content-end">
                     <div class="flex justify-end items-center">
-                        <Image src="/images/exports-with-Walmart.png" className='w-full p-6' alt="walmart vriddhi" width={100} height={100} />
+                        <Image src="/images/exports-with-Walmart.png" className='w-full p-6' alt="walmart vriddhi" width={300} height={300} />
                     </div>
 
                     <div className='bg-w-blue p-6 h-52'>

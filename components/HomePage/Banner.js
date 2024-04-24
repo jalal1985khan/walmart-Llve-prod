@@ -21,7 +21,7 @@ function Banner() {
                 {
                     Banner.map((items, index) => (
                         <div key={index} class="duration-700 ease-in-out h-fit" data-carousel-item >
-                            <Image src={items.image} class="absolute block w-full" alt="walmart vriddhi" width={200} height={200} />
+                            <Image src={items.image} class="absolute block w-full" alt="walmart vriddhi" width={800} height={500} />
                         </div>
 
                     ))
