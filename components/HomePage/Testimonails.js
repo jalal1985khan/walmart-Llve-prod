@@ -99,7 +99,7 @@ function Testimonails() {
                         //     </div>
                         //         </div>
                             //         </div>
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <div key={index} class="hidden duration-700 ease-in-out" data-carousel-item>
                             <img src={items.desktopImage} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={items.name}/>
                                </div> 
                     ))
