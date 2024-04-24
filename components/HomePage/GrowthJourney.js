@@ -7,14 +7,14 @@ function GrowthJourney() {
             <div class="py-1 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
                 <h2 class="mb-4 text-2xl font-boglebold text-w-blue tracking-tight leading-none md:text-5xl lg:text-5xl dark:text-white leading-7">Your growth journey with Walmart Vriddhi</h2>
                 <div class="flex justify-center items-center">
-                    <Image src="/images/line-svg.png" width={100} height={100} className='w-20' alt="walmart vriddhi" />
+                    <Image src="/images/line-svg.png" width={100} height={50} className='w-20 h-px' alt="walmart vriddhi" />
                 </div>
             </div>
 
             <div class="grid grid-cols-3 ">
                 <div class="content-end">
                     <div class="flex justify-end items-center">
-                        <Image src="/images/flipkart.png" className='w-full p-6' width={300} height={300} alt="walmart vriddhi" />
+                        <Image src="/images/flipkart.png" className='w-full p-6 ' width={300} height={300} alt="walmart vriddhi" />
                     </div>
 
                     <div className='bg-w-blue p-6 h-28'>
