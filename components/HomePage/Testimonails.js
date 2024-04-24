@@ -4,11 +4,23 @@ import Image from 'next/image'
 function Banner() {
 
     const Banner = [
-        { 'id': 1, 'image': '/images/HomeBanner-1.jpeg' },
-        { 'id': 2, 'image': '/images/HomeBanner-2.jpeg' },
-        { 'id': 3, 'image': '/images/HomeBanner-3.jpeg' },
-        { 'id': 4, 'image': '/images/HomeBanner-4.jpeg' },
-        { 'id': 5, 'image': '/images/HomeBanner-5.jpeg' },
+        {
+            'id': 1,
+            'image': '/images/testimonials/desktop-Umesh-Nanda.png',
+            'feedback': `“Walmart Vriddhi is a complete growth package for ambitious MSMEs. Its innovative learning and growth approach has been a source of inspiration for us to get through the pandemic.”`,
+            'name': 'Umesh Nanda',
+            'bussiness': 'Owner, Soumya International, Panipat - Haryana',
+        },
+        {
+            'id': 2,
+            'image': '/images/testimonials/desktop-Umesh-Nanda.png',
+            'feedback': `“Walmart Vriddhi is a complete growth package for ambitious MSMEs. Its innovative learning and growth approach has been a source of inspiration for us to get through the pandemic.”`,
+            'name': 'Umesh Nanda',
+            'bussiness': 'Owner, Soumya International, Panipat - Haryana',
+        },
+        { 'id': 3, 'image': '/images/testimonials/desktop-Umesh-Nanda.png' },
+        { 'id': 4, 'image': '/images/testimonials/desktop-Umesh-Nanda.png' },
+        { 'id': 5, 'image': '/images/testimonials/desktop-Umesh-Nanda.png' },
     ]
 
 
@@ -21,7 +33,17 @@ function Banner() {
                 {
                     Banner.map((items, index) => (
                         <div key={index} class="duration-700 ease-in-out h-fit" data-carousel-item >
-                            <Image src={items.image} class="absolute block w-full" alt="walmart vriddhi" width={800} height={500} />
+                             <div class="flex flex-row items-center bg-white">
+                            <div class="flex flex-col text-start p-4 w-11/12">
+                                        <p class="mb-2 text-2xl font-bogleitalic tracking-tight text-gray-900 dark:text-white">{items.feedback}</p>
+                                        <p className='mb-2 text-3xl font-boglebold text-w-green'>{items.name}</p>
+                                        <p class="mb-3 text-xl font-bogleregular ">{items.bussiness}</p>
+                            </div>
+                            <div className='flex item-end w-3/5'>
+                                        <Image class="w-svw h-96" src={items.image} alt={items.name} width={200} height={200} />
+                            </div>
+                                </div>
+                            
                         </div>
 
                     ))
