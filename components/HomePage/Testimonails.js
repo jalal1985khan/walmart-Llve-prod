@@ -74,10 +74,10 @@ function Banner() {
         </div>
 
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
-            <div class="relative  overflow-hidden ">
+            <div class="relative  h-96 ">
                 {
                     Banner.map((items, index) => (
-                        <div key={index} class="duration-700 ease-in-out h-fit" data-carousel-item >
+                        <div key={index} class="duration-700 ease-in-out h-95" data-carousel-item >
                              <div class="flex flex-row items-center bg-white">
                             <div class="flex flex-col text-start p-4 w-11/12">
                                         <p class="mb-2 text-2xl font-bogleitalic tracking-tight text-gray-900 dark:text-white">{items.feedback}</p>
