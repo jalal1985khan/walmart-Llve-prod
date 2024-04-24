@@ -65,7 +65,13 @@ function Banner() {
 
     return (
 
-
+        <div className='bg-w-yellow py-10'>
+        <div class="py-1 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
+            <h2 class="mb-4 text-2xl font-boglebold text-black tracking-tight leading-none md:text-5xl lg:text-5xl dark:text-white leading-7">Proud owners who keep adding to the India story</h2>
+            <div class="flex justify-center items-center">
+                <Image src="/images/line-svg.png" width={100} height={100} className='w-20' alt="walmart vriddhi"/>
+            </div>
+        </div>
 
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
             <div class="relative  overflow-hidden h-[80vh]">
@@ -117,7 +123,7 @@ function Banner() {
                 </span>
             </button>
         </div>
-
+</div>
     )
 }
 
