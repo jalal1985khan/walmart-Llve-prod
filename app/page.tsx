@@ -5,6 +5,7 @@ import LearningPrograme from '../components/HomePage/LearningPrograme'
 import ProgramBenefits from '../components/HomePage/ProgramBenefits'
 import GrowthJourney from '../components/HomePage/GrowthJourney'
 import Testimonials from '../components/HomePage/Testimonails'
+import AppBanner from '../components/HomePage/AppBanner'
 
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
       <LearningPrograme />
       <ProgramBenefits />
       <GrowthJourney />
-      <Testimonials/>
+      <Testimonials />
+      <AppBanner/>
     </>
   );
 }
