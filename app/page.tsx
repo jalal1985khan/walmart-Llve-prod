@@ -3,6 +3,7 @@ import Banner from '../components/HomePage/Banner';
 import Brands from '../components/Common/Brands';
 import LearningPrograme from '../components/HomePage/LearningPrograme'
 import ProgramBenefits from '../components/HomePage/ProgramBenefits'
+import SimpleSteps from '../components/HomePage/SimpleSteps'
 import GrowthJourney from '../components/HomePage/GrowthJourney'
 import Testimonials from '../components/HomePage/Testimonails'
 import AppBanner from '../components/HomePage/AppBanner'
@@ -15,6 +16,7 @@ export default function Home() {
       <Brands />
       <LearningPrograme />
       <ProgramBenefits />
+      <SimpleSteps/>
       <GrowthJourney />
       <Testimonials />
       <AppBanner/>

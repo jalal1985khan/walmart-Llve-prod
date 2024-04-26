@@ -8,7 +8,7 @@ function Brands() {
                 <Image src="/images/brand-flipkart.png" alt="flipkart" className='w-80 h-12' width={200} height={60} />
                 <div className="flex gap-x-6 gap-y-4 ml-auto">
                     <div className='flex items-center space-x-8'>
-                        <Image src="/images/brand-swasti.png" alt="swasti" className='w-80 h-12' width={200} height={60} />
+                        <Image src="/images/brand-swasti.png" alt="swasti" className='w-80 h-10' width={200} height={60} />
                     </div>
                 </div>
             </div>

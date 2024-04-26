@@ -20,7 +20,12 @@ const config: Config = {
         'w-green': '#76bc21',
         'w-orange': '#fc6261',
         'w-yellow': '#fdbd01',
-        'w-bluelight':'#4cc4db'
+        'w-bluelight': '#4cc4db',
+        'a-purple': '#4a4aae',
+        'a-bluedark': '#3b72c4',
+        'a-bluelight': '#3b97ca',
+        'a-greendark': '#3fc497',
+        'a-greenlight':'#7eac30',
       },
       fontFamily: {
         'bogleblack': ['BOGLEBLACK'],

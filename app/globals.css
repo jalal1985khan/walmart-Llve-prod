@@ -53,3 +53,6 @@ body {
     src: url(/bogle/BOGLEREGULAR.woff) format('woff');
   }
 }
+.webkit-center{
+  text-align: -webkit-center;
+};
