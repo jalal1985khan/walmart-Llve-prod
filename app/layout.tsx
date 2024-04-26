@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Script from 'next/script'
 import Header from '../components/Common/Header'
+import Footer from '../components/Common/Footer'
 
 
 
@@ -19,9 +20,12 @@ export default function RootLayout({
     <html lang="en">
       <body >
         <Header/>
-        {children}</body>
+        {children}
+        <Footer/>
+      </body>
         {/* <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" /> */}
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" defer ></Script>
+      
     </html>
   );
 }

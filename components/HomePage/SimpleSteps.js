@@ -44,9 +44,10 @@ function SimpleSteps() {
                             onMouseEnter={() => setIsHovered(true)}
                             onMouseLeave={() => setIsHovered(false)}
                         >
-                            <img src="images/arc-1.png" className='hover:cursor-pointer
-                                transform transition duration-500 hover:opacity-45'
-
+                            <Image src="/images/arc-1.png" className='hover:cursor-pointer
+                                transform transition duration-500 hover:opacity-45 w-full lg:w-[26.5em]'
+                                width={420}
+                                height={300}
 
                             /></div>
                     </div>
@@ -98,16 +99,20 @@ function SimpleSteps() {
                             onMouseLeave={() => setIsHovered1(false)}
                             >
 
-                                <img src="images/step_02.png" className='hover:cursor-pointer
-                                transform transition duration-500 hover:opacity-45'/>
+                                <Image src="/images/step_02.png" className='hover:cursor-pointer
+                                transform transition duration-500 hover:opacity-45 w-full lg:w-[12.5em]'
+                                width={420}
+                                height={300}/>
                             </div>
 
                             <div className='absolute -mt-[2.9em] -ml-[6.2em] z-50'
                             onMouseEnter={() => setIsHovered2(true)}
                             onMouseLeave={() => setIsHovered2(false)}
                             >
-                                <img src="images/step_01.png" className='hover:cursor-pointer
-                                transform transition duration-500 hover:opacity-45' />
+                                <Image src="/images/step_01.png" className='hover:cursor-pointer
+                                transform transition duration-500 hover:opacity-45 w-full lg:w-[10em]'
+                                width={420}
+                                height={300} />
                             </div>
 
                         </div>
@@ -115,8 +120,10 @@ function SimpleSteps() {
 
                     </div>
 
-                    <div className="flex justify-center items-center justify-self-center mt-6 lg:w-[350px]">
-                        <img src="images/circle_lady.png" className='' />
+                    <div className="flex justify-center items-center justify-self-center mt-6 lg:w-[339px]">
+                        <Image src="/images/circle_lady.png" className='w-full lg:w-[30em]'
+                                width={420}
+                                height={300} />
                     </div>
                     <div className="flex justify-start items-center">
                         <div class="grid grid-row-2 grid-flow-row">
@@ -125,15 +132,19 @@ function SimpleSteps() {
                             onMouseLeave={() => setIsHovered3(false)}
                             
                             >
-                                <img src="images/step_05.png" className='hover:cursor-pointer
-                                transform transition duration-500 hover:opacity-45'/>
+                                <Image src="/images/step_05.png" className='hover:cursor-pointer
+                                transform transition duration-500 hover:opacity-45 w-full lg:w-[12em]'
+                                width={420}
+                                height={300}/>
                             </div>
                             <div className='absolute -mt-[2.9em] -ml-[3.8em] z-5'
                             onMouseEnter={() => setIsHovered4(true)}
                             onMouseLeave={() => setIsHovered4(false)}
                             >
-                                <img src="images/step_06.png" className='hover:cursor-pointer
-                                transform transition duration-500 hover:opacity-45'/></div>
+                                <Image src="/images/step_06.png" className='hover:cursor-pointer
+                                transform transition duration-500 hover:opacity-45 w-full lg:w-[9.7em]'
+                                width={420}
+                                height={300}/></div>
 
                         </div>
                         <div className='w-full text-end'>

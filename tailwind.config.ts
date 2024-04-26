@@ -25,7 +25,8 @@ const config: Config = {
         'a-bluedark': '#3b72c4',
         'a-bluelight': '#3b97ca',
         'a-greendark': '#3fc497',
-        'a-greenlight':'#7eac30',
+        'a-greenlight': '#7eac30',
+        'w-footer':'#1381db',
       },
       fontFamily: {
         'bogleblack': ['BOGLEBLACK'],
